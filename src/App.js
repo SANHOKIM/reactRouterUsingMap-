@@ -27,18 +27,18 @@ function App() {
       <section>
         <Routes>
           <Route
-            path="/kr/naver"
+            path="/kr/naverhref"
             element={
               <Contents>
-                <p>나 한국어로</p>
+                <p>난 한국어로 App.js.return().Routes.Route path,element> </p>
               </Contents>
             }
           ></Route>
           <Route
-            path="/kr/daum"
+            path="/kr/daumhref"
             element={
               <Contents>
-                <p>나 영어로</p>
+                <p>난 영어로</p>
               </Contents>
             }
           ></Route>
