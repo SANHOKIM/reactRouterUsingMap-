@@ -3,11 +3,13 @@
     "navi": [
       {
         "d1text": "네이버",
-        "cls": "naver"
+        "cls": "naver",
+        "ex": "우리나라 제일 큰 포털사이트"
       },
       {
         "d1text": "다음",
-        "cls": "daum"
+        "cls": "daum",
+        "ex": " 주소창에   daum이 있을때 내가 나옴"
       }
     ]
   },

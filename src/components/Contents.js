@@ -1,16 +1,15 @@
 import { useParams } from "react-router-dom";
-import contentnavi from "../data/navi.json";
 
-function Contents({ children }) {
-  const { languagess } = useParams();
+import navi from "../data/navi.json";
+
+function Contents({ children, p }) {
+  const { pageid } = useParams();
   return (
     <section>
-      {contentnavi[languagess].navi.map((el) => {
-        return el.d1text;
-      })}
+      {pageid} 페이지
       {children}
-      {languagess} 사이트 입니다.
-      {children}
+      {p}
+      <h2> {navi.kr.navi[pageid]["ex"]}</h2>
     </section>
   );
   // return (

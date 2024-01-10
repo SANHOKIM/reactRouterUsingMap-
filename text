@@ -27,7 +27,7 @@ function Contents({ children }) {
       {children}
       {languagess} 사이트 입니다.
       {children}
-    </section>
+    </section>c
   );
 
         에서 useparams, map 등 변수들이 위치함 
