@@ -1,0 +1,12 @@
+[
+  {
+    "d1text": "네이버",
+    "cls": "navercls",
+    "href": "naverhref"
+  },
+  {
+    "d1text": "다음",
+    "cls": "daumcls",
+    "href": "daumhref"
+  }
+]
