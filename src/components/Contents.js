@@ -5,11 +5,12 @@ function Contents({ children }) {
   const { languagess } = useParams();
   return (
     <section>
-      {languagess} 사이트 입니다.
-      {children}
       {contentnavi[languagess].navi.map((el) => {
         return el.d1text;
       })}
+      {children}
+      {languagess} 사이트 입니다.
+      {children}
     </section>
   );
   // return (

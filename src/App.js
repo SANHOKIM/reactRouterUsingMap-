@@ -32,12 +32,13 @@ function App() {
           );
         })}
       </header>
+
       <section>
         <Routes>
           <Route
             path="/:languagess"
             element={
-              <Contents>
+              <Contents p="App.js.Contents.p태그///">
                 <p>App.js.Contents.p태그 </p>
               </Contents>
             }

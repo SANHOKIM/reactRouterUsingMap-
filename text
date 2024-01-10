@@ -1,33 +1,41 @@
-{
-  "kr": {
-    "navi": [
-      {
-        "d1text": "네이버",
-        "cls": "naver"
-      },
-      {
-        "d1text": "다음",
-        "cls": "daum"
-      }
-    ]
-  },
-  "en": {
-    "navi": [
-      {
-        "d1text": "NAVER",
-        "cls": "naver"
-      },
-      {
-        "d1text": "DAUM",
-        "cls": "daum"
-      }
-    ]
-  }
-}
+/* 
+상위컴포넌트에는 값이 들어가고 
+하위컴포넌트는 변수가 세팅된다. 
 
+예:
+상위컴포넌트
+ <Route
+            path="/:languagess"
+            element={
+              <Contents p="App.js.Contents.p태그///">
+                <p>App.js.Contents.p태그 </p>
+              </Contents>
+            }
+          ></Route> 
+
+          에서 p= 라는 속성 값, <p> 라는 컨텐츠 값을 실행,표시,반환,리턴,출력 
+
+하위컴포넌트
+
+function Contents({ children }) {
+  const { languagess } = useParams();
+  return (
+    <section>
+      {contentnavi[languagess].navi.map((el) => {
+        return el.d1text;
+      })}
+      {children}
+      {languagess} 사이트 입니다.
+      {children}
+    </section>
+  );
+
+        에서 useparams, map 등 변수들이 위치함 
+
+        정리 : 상위컴포넌트 함수,변수 세팅 , 하위컴포넌트 : 값 세팅
+*/
 /* 
 const obj = { nm : "kim"}
-
 const {nm} = obj 
 const nm = obj.nm
 
