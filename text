@@ -27,6 +27,7 @@
 
 /* 
 const obj = { nm : "kim"}
+
 const {nm} = obj 
 const nm = obj.nm
 

@@ -1,12 +1,26 @@
-[
-  {
-    "d1text": "네이버",
-    "cls": "navercls",
-    "href": "네이버의href입니다"
+{
+  "kr": {
+    "navi": [
+      {
+        "d1text": "네이버",
+        "cls": "naver"
+      },
+      {
+        "d1text": "다음",
+        "cls": "daum"
+      }
+    ]
   },
-  {
-    "d1text": "다음",
-    "cls": "daumcls",
-    "href": "다음의href입니다"
+  "en": {
+    "navi": [
+      {
+        "d1text": "NAVER",
+        "cls": "naver"
+      },
+      {
+        "d1text": "DAUM",
+        "cls": "daum"
+      }
+    ]
   }
-]
+}
