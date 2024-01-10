@@ -27,10 +27,10 @@ function App() {
       <section>
         <Routes>
           <Route
-            path="/kr/:language"
+            path="/kr/:languagess"
             element={
               <Contents>
-                <p>난 한국어로 App.js.return().Routes.Route path,element </p>
+                <p>Contents의 p태그 </p>
               </Contents>
             }
           ></Route>

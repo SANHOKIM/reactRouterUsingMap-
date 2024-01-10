@@ -2,11 +2,11 @@
   {
     "d1text": "네이버",
     "cls": "navercls",
-    "href": "naverhref"
+    "href": "네이버의href입니다"
   },
   {
     "d1text": "다음",
     "cls": "daumcls",
-    "href": "daumhref"
+    "href": "다음의href입니다"
   }
 ]
