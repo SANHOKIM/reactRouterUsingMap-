@@ -1,6 +1,9 @@
-import React from "react";
+import { useParams } from "react-router-dom";
 
 function Contents({ children }) {
+  const params = useParams();
+  console.log(params.language);
+
   return (
     <section>
       {children}
